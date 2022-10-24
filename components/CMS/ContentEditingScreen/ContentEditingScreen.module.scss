@@ -1,0 +1,15 @@
+.container {
+  position: fixed;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+  background: white;
+  color: black;
+
+  &.active {
+    transform: translateX(0);
+  }
+}
